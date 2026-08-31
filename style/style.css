@@ -14,6 +14,11 @@
 .dark-2{
     color: #474747;
 }
+header{
+    background-image: url(../images/developer.png) , url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 
 nav{
     
@@ -40,7 +45,7 @@ nav ul a{
     font-weight: 400;
     font-size: 20px;
 }
-button{
+.btn-primary{
     color: #ffff;
     width: 150px;
     height: 64px;
@@ -50,4 +55,36 @@ button{
     font-size: 20px;
     border-radius: 5px;
 
+}
+/*bannar style*/
+.bannar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.bannar-content{
+    max-width: 580px;
+}
+.bannar-greeting{
+    font-weight:600px ;
+    font-size:45px ;
+    color: #474747;
+}
+.bannar-title{
+    font-weight: 800px;
+    font-family: 85px;
+    color:#181818 ;
+}
+.contact-info{
+    width: 150px;
+    height: 64px;
+     font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    margin-left: 10px;
+}
+.bannar-pictiure{
+    width: 580px;
+    
 }
